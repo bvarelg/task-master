@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap");
+html,
+body {
+  height: 100vh;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.principal-content {
+  display: grid;
+  grid-template-columns: 70% auto;
+}
+
+div.col1 {
+  height: 100vh;
+  background: linear-gradient(180deg, #466c8b 0%, #c2d5ee 100%);
+  background-repeat: no-repeat;
+}
+
+div.col2 {
+  background-color: #29558a;
+  height: 100vh;
+}
+
+form.recover {
+  margin-top: 30vh;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.img3 {
+  height: 100%;
+  width: 100%;
+}
+
+.img-position {
+  position: fixed;
+  display: block;
+  justify-content: space-around;
+  margin-top: 4%;
+  margin-left: 20%;
+}
+
+.link-register {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-top: 10px;
+}

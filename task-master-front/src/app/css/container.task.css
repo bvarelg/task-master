@@ -1,0 +1,30 @@
+div.container {
+  width: 800px;
+  align-items: center;
+  
+}
+
+div.headBox {
+    color: black;
+}
+
+div.headerModal {
+    background: white;
+    
+}
+
+div.bodyBox {
+  height: 300px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: larger;
+}
+
+div.taskBox {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  border-radius: 10px;
+}
+

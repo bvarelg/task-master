@@ -1,0 +1,13 @@
+.btn-position {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+  display: flex !important;
+  background-color: #537fa8 !important;
+  color: white !important;
+  justify-content: center !important;
+  width: 180px !important;
+  height: 40px !important;
+}
