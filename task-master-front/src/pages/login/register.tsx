@@ -1,6 +1,8 @@
+import Link from "next/link";
 import Image from "next/image";
 import "@/app/css/register.css";
 import { useState } from "react";
+import router from "next/router";
 import "bootstrap/dist/css/bootstrap.css";
 import { httpPost } from "@/app/core/http-request-contract";
 import registerimg from "@/app/assets/images/3-removebg.png";
@@ -11,7 +13,6 @@ import {
   registerBody,
   validateRegisterBody,
 } from "@/app/core/repository/register/register-body";
-import Link from "next/link";
 
 export default function RegisterComponent() {
   const [values, setValues] = useState(registerBody);
@@ -23,7 +24,8 @@ export default function RegisterComponent() {
     else
       httpPost("users", values)
         .then((response) => {
-          console.log(response);
+          alert("User created")
+          router.push("/")
         })
         .catch((err) => {
           console.log(err);
